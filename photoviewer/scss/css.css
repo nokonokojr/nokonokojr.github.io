@@ -1,20 +1,20 @@
-/* line 1, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 1, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 body {
   position: relative;
   left: 0;
   overflow-x: hidden; }
 
-/* line 6, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 6, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 header {
   background: #000080;
   color: #fff; }
 
-/* line 10, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 10, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #Category {
   width: 80%;
   margin: 0 auto 0 auto; }
 
-/* line 15, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 15, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #Category li {
   text-align: center;
   display: inline-block;
@@ -23,11 +23,11 @@ header {
   margin: 10px auto 0 auto;
   font-size: 1.1em; }
 
-/* line 23, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 23, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #btn-fadein {
   border-right: solid 1px #fff; }
 
-/* line 26, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 26, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #menu {
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@ header {
   background: #4169e1;
   z-index: 100; }
 
-/* line 35, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 35, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #menu li {
   text-align: left;
   display: block;
@@ -49,11 +49,11 @@ header {
   border-top: solid 1.5px #4a77ff;
   border-bottom: solid 1.5px #3453b3; }
 
-/* line 46, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 46, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #menu li span {
   margin-left: 10px; }
 
-/* line 49, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 49, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #menu li:first-child {
   text-align: left;
   display: block;
@@ -66,13 +66,13 @@ header {
   border-top: none;
   border-bottom: none; }
 
-/* line 62, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 62, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 #itemList {
   margin: 0 auto 0 auto;
   width: 99.9vw;
   height: 100%; }
 
-/* line 67, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 67, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 .item {
   max-width: 32.8vw;
   width: 100%;
@@ -82,13 +82,13 @@ header {
   overflow: hidden;
   display: inline-block; }
 
-/* line 76, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+/* line 76, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
 .item img {
   max-width: 32.8vw;
   width: 100%; }
 
 @media screen and (max-width: 1013px) {
-  /* line 81, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+  /* line 81, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
   .item {
     max-width: 32vw;
     width: 100%;
@@ -96,7 +96,7 @@ header {
     box-shadow: 2px 2px 3px #525252; } }
 
 @media screen and (max-width: 414px) {
-  /* line 90, C:/Users/ryo/Desktop/photoviewer0511/scss/css.scss */
+  /* line 90, C:/Users/ryo/Documents/nokonokojr.github.io/nokonokojr.github.io/photoviewer/scss/css.scss */
   .item {
     max-width: 32vw;
     width: 100%;
