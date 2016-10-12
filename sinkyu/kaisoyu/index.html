@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <title>withStress | ストレス解消法ページ</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/shuffle.js"></script>
+    <script src="../js/menu.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="topline"></div>
+      <h1>
+        <a href="../index.html">
+          <img src="../images/rogo.png" alt="withストレス">
+        </a>
+      </h1>
+      <div class="icon1">
+        <a href="../kaiin/index.html">
+          <img src="../images/yuza.png" alt="会員ページ">
+          <p>会員ページ</p>
+        </a>
+      </div>
+      <div class="menu">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+        <p>メニュー</p>
+      </div>
+      <nav>
+        <ul class="menunav">
+          <li class="select selectfirst">
+            <a href="../index.html">トップページ</a>
+          </li>　 
+          <li class="select">
+            <a href="../heikin/index.html">みんなの平均ストレス値</a>
+          </li>
+          <li class="select">
+            <a href="../byouki/index.html">ストレスによる病気一覧</a>
+          </li>
+          <li class="select">
+            <a href="#">ストレス種類診断</a>
+          </li>
+          <li class="selectedd">ストレス解消法</li>
+        </ul>
+      </nav>
+    </header>
+    <div id="conteinar">
+      <article>
+        <h2 id="byoukimidasi">ストレス解消法</h2>
+        <p id="byoukibun">ストレス診断の結果を参考にしてあなたのストレスの種類にあった解消法を見つけて実践してましょう。</p>
+        <div class="categori">
+          <section>
+            <h3>
+              <div class="cmidasi"></div>身体的ストレス
+            </h3>
+            <ul id="sintaik">
+              <li id="stay">- 物理的</li>
+              <li>- 
+                <a href="#">環境的</a>
+              </li>
+              <li>- 
+                <a href="#">肉体的</a>
+              </li>
+              <li>- 
+                <a href="#">科学的</a>
+              </li>
+              <li>- 
+                <a href="#">生物的</a>
+              </li>
+              <li>- 
+                <a href="#">運動関係</a>
+              </li>
+              <li>- 
+                <a href="#">仕事関係</a>
+              </li>
+              <li>- 
+                <a href="#">睡眠関係</a>
+              </li>
+              <li>- 
+                <a href="#">生活関係</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>
+              <div class="cmidasi"></div>精神的ストレス
+            </h3>
+            <ul id="seisink">
+              <li>- 
+                <a href="#">仕事関係</a>
+              </li>
+              <li>- 
+                <a href="#">学校関係</a>
+              </li>
+              <li>- 
+                <a href="#">身体関係</a>
+              </li>
+              <li>- 
+                <a href="#">家庭関係</a>
+              </li>
+              <li>- 
+                <a href="#">人間関係</a>
+              </li>
+              <li>- 
+                <a href="#">喪失関係</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div id="kaisyoucontents">
+          <section>
+            <h4>物理的ストレス</h4>
+            <p id="setumei">気温の寒暖差や低気圧・高気圧などが原因になっており、環境に適応することを
+              <br>サポートすることが大切です。
+            </p>
+            <div id="selectcontents">
+              <ul class="genin" id="Category">
+                <li class="active" data-group="all">全て</li>
+                <li data-group="kandan">寒暖差</li>
+                <li data-group="kiatu">高気圧・低気圧</li>
+                <li data-group="sigaisen">紫外線</li>
+              </ul>
+              <ul class="kaisyougrop" id="itemList">
+                <li class="item" id="nyuusyoku" data-groups='["kandan","kiatu"]'>
+                  <a href="#">体を芯から暖めましょう</a>
+                </li>
+                <li class="item" id="sanngurasu" data-groups='["sigaisen"]'>
+                  <a href="#">紫外線から目を守りましょう</a>
+                </li>
+                <li class="item" id="hiyake" data-groups='["sigaisen"]'>
+                  <a href="#">定番の紫外線対策</a>
+                </li>
+                <li class="item" id="mahura" data-groups='["kandan"]'>
+                  <a href="#">無理なく適した服装
+                    <br>をしましょう
+                  </a>
+                </li>
+                <li class="item" id="syouga" data-groups='["kandan","kiatu"]'>
+                  <a href="#">体を暖めてくれる食材</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </div>
+    <footer>
+      <div id="footer">
+        <div id="bottomline"></div>
+        <div id="fcontent">
+          <ul id="map">
+            <li>
+              <div class="midasi"></div>
+              <a href="../index.html">トップページ</a>
+            </li>
+            <li>
+              <div class="midasi"></div>
+              <a href="../heikin/index.html">みんなの平均ストレス値</a>
+            </li>
+            <li>
+              <div class="midasi"></div>
+              <a href="../byouki/index.html">ストレスによる病気一覧</a>
+            </li>
+          </ul>
+          <ul id="map2">
+            <li >
+              <div class="midasi2"></div>
+              <a href="#">ストレス種類診断</a>
+            </li>
+            <li>
+              <div class="midasi2"></div>ストレス解消法
+            </li>
+          </ul>
+          <div class="banaeria">
+            <a href="http://www.mhlw.go.jp/" target="_blank">
+              <img src="../images/kouseibana.png" alt="厚生労働省">
+            </a>
+            <a href="https://byoinnavi.jp/" target="_blank">
+              <img src="../images/byouinbana.png" alt="病院ナビ">
+            </a>
+          </div>
+        </div>
+        <p id="copyline">
+          <small>Copyright &#169; 2016 withStress,All Rights reserved</small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

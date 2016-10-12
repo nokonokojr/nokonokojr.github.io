@@ -1,0 +1,1018 @@
+/**/
+html{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.page{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+body,h2{
+    color: #666;
+}
+p{
+    font-size: 1em;
+    color: #666;
+}
+
+ons-button{
+    margin: 0;
+    padding: 0;
+    box-shadow:none;
+}
+#push-button{
+    margin: 5% 0 0 0 ;
+    box-shadow:none;
+}
+#jikansettei-button,#hanasodateru-button,#kakonohana-button,#kekka-button,#saita-button,#oyasumi-button,#hanasetumei-button,#taneueru-button,#ueta-button,#oyasumi2-button{
+    margin: 0 0 5% 0 ;
+    box-shadow:none;
+}
+#kekka-button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 15%;
+    width: 80%;
+}
+#kekka-button img{
+    width: 100%;
+    
+}
+.eria{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-left: 18%;
+}
+.kyatti{
+    font-size: 1em;
+    margin: 0 0 10% 0 ;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+.back-button{
+    color: #000;
+    }
+    #page1 .toperia{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(#ffc299, #ffffff);
+    }
+    #page1 .toperia::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 400px;
+        background: url("../image/top_img.png") no-repeat;
+        background-size: 100%;
+        background-position: center bottom;
+        transform:scaleX(1.01);
+        position: absolute;
+        bottom: 0;
+    }
+    .toperia{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: #fff; 
+        
+    }
+
+    .name{
+        margin: 0 auto;
+        padding-top: 30%;
+        /*margin-bottom: 5%;*/
+        width: 75%;
+        height: auto;
+    }
+    ul li{
+        padding: 0;
+        margin: 10% 0 0 6%;
+        list-style: none;
+        text-align: center;
+        width: 25vw;
+        float: left;
+        height: 35%;
+    }
+    ul li:first-child{
+        margin: 10% 0 0 0;     
+    }
+    .two{
+        margin: 10% 0 0 11%;
+    }
+    /*ul .two::before{
+            content: "";
+            display: block;
+            clear: both;
+             visibility: hidden;
+             height: 0;
+            
+    }*/
+    ul,p{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        width: 90vw;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .hanasodaterupage_back{
+        background: #f8fff5;
+        height: 100%;
+        overflow: hidden;
+    }
+    .aitem1,.aitem2,.aitem3,.aitem4,.aitem5{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: #f8fff5;
+    /*opacity: 0.5;*/
+    display: none;
+    position: fixed;
+    top:44px;
+    }
+    .aitem01,.aitem02,.aitem03,.aitem04,.aitem05{
+    margin: 0 0 0 0;
+    width: 120px;
+    height: 120px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../image/eiyou00.png");
+    }
+    .iikoto_bg{
+        width: 220px;
+        height: 155px;
+        margin: 0px auto 0 auto;
+        background: url(../image/happy_flame.png);
+         background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 23px 0;
+    }
+    #ganbari,#ganbari2,#ganbari3,#ganbari4,#ganbari5{
+    background-image: url("../image/good5.png");
+    }
+    #ninmari,#ninmari2,#ninmari3,#ninmari4,#ninmari5{
+    background-image: url("../image/good3.png"); 
+    }
+    #hokkori,#hokkori2,#hokkori3,#hokkori4,#hokkori5{
+    background-image: url("../image/good4.png"); 
+    }
+    #uresii,#uresii2,#uresii3,#uresii4,#uresii5{
+    background-image: url("../image/good1.png"); 
+    }
+    #oisii,#oisii2,#oisii3,#oisii4,#oisii5{
+    background-image: url("../image/good2.png"); 
+    }
+    .g,.n,.h,.u,.o{
+    color:#fff;
+    }
+    .aitem1 h2,.aitem2 h2,.aitem3 h2,.aitem4 h2,.aitem5 h2{
+        margin-top: 10%;
+        margin-bottom: 0px;
+    }
+    .aitem1 p,.aitem2 p,.aitem3 p,.aitem4 p,.aitem5 p{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        clear: both;
+    }
+    form .aitem01,form .aitem02,form .aitem03,form .aitem04,form .aitem05{
+        height: 30%;
+        margin: 0 auto;
+        width: 53%;
+    }
+    .aitem1 div div div,.aitem2 div div div,.aitem3 div div div,.aitem4 div div div,.aitem5 div div div{
+        float: left;
+        padding: 8px 0;
+        text-align: center;
+        margin-right:5%; 
+        margin-bottom: 15px;
+        cursor: pointer;
+        width: 28%;
+    }
+    .g{
+        background: url(../image/happy_btn05.png);
+        background-size: cover;
+    }
+    .n{
+      background: url(../image/happy_btn03.png);
+      background-size: cover;
+    }
+    .h{        
+       background: url(../image/happy_btn04.png); 
+       background-size: cover;
+    }
+    .u{
+       background: url(../image/happy_btn01.png);     
+       background-size: cover;
+    }
+    .o{
+      background: url(../image/happy_btn02.png);
+      background-size: cover;
+    }
+    .category li{
+      padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 20vw;
+        height: 15vh;
+        float: left;
+    }
+    .category{
+        width:100%;
+        overflow: hidden;
+        list-style: none;
+        position: relative;
+        top:-50px;
+        height: auto;
+    }
+    .category li:first-child{
+        margin: 0;     
+    }
+    .txtin{
+        -webkit-appearance: none;
+        box-shadow: none;
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px 0;
+        border: none;
+        font-size: 15px;
+        background: url(../image/time_border.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .inputbox{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .formtext{
+        width: 75%;
+        display: block;
+        margin: -5% auto 0 auto;
+        overflow: hidden;
+    }
+    .formtext input{
+                -webkit-appearance: none;
+        width: 100%;
+        height: 80px;
+        border: none;
+        background: url(../image/ok_btn.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    .input_bg{
+        background: url(../image/happy_back.png);
+        background-size:cover;
+        background-repeat: no-repeat; 
+        padding-bottom: 100px;
+    }
+    .aitem1 .ct,.aitem2 .ct,.aitem3 .ct,.aitem4 .ct,.aitem5 .ct{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        clear: both;
+    }
+    
+    #mycanvas{
+    width: 280px;
+    height: 280px;
+}
+//成長CSS
+#back{
+    
+  
+}
+.c_one{
+    background: url(../image/grow0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    border-radius: 50%;
+    
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+}
+.c_two{
+    background: url(../image/grow1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+}
+.c_three{
+    background: url(../image/grow2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+     border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+}
+.c_four{
+    background: url(../image/grow3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+     border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+}
+.c_five{
+    background: url(../image/grow4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+     border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+}
+
+.fadein {
+        opacity: 1.0;
+        -moz-transition: opacity 4s;
+        -webkit-transition: opacity 4s;    }
+.fadeout {
+        opacity: 0;
+        -moz-transition: opacity 1s;
+        -webkit-transition: opacity 1s;
+    }
+    .fadeout2 {
+        opacity: 0;
+        -moz-transition: opacity 2s;
+        -webkit-transition: opacity 2s;
+    }
+    .fadeout3 {
+        opacity: 0;
+        -moz-transition: opacity 3s;
+        -webkit-transition: opacity 3s;
+    }
+.none{
+    display: none;
+}
+
+
+
+/*成長のボタン*/
+#saita-button,
+#oyasumi-button{
+    margin: 15px auto;
+    display: block;
+}
+    
+    
+
+    
+    /*過去の花一覧*/
+    #album{
+        width: 99vw;
+    height: auto;
+    margin: 0 auto;
+    }
+    
+    
+    ul .flame{
+        background: url(../image/flame_small.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0 0 3% 0;
+        list-style: none;
+        text-align: inherit;
+        width: 45vw;
+        float: left;
+        height:18vh;
+        position: relative;
+    }
+    ul .flame:nth-child(odd){
+        margin: 0 3% 3% 3%;
+        
+    }
+    .flame h3{
+        font-size: 0.8em;
+        font-weight: normal;
+        margin: 0;
+        display: inline-block;
+    }
+    .timetxt{
+        display: inline-block;
+        margin: 8% 0 0 11%;
+    }
+    .timetxt p{
+        font-size:0.9em;
+    }
+    
+    .flame img{
+        width: 30%;
+        height: 60%;
+        position: absolute;
+        right: 22%;
+        bottom: 22%;
+    }
+    
+    
+    #flamebig2{
+    
+    width: 100vw;
+    
+    background: url(../image/flame_big.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:38vh;
+    position: absolute;
+    margin-top:40%;
+    }
+    #flamebig h3,#flamebig p{
+        font-size: 0.6em;
+        font-weight: normal;
+        margin: 0;
+        display: inline-block;
+    }
+    
+    
+    #albumbig{
+        width: auto;
+        height: 70%;
+        position: absolute;
+        right:12%;
+        bottom:22%;
+    }
+    
+    #setumeitxt{
+        text-align: center;
+        width: 50vw;
+        margin-left:7%;
+    }
+    #setumeitxt h3{
+        font-size: 0.8em;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #setumeitxt p{
+        font-size: 0.7em;
+    }
+    #albumclose{
+        width: 11%;
+        height: auto;
+        position: absolute;
+        right: 1%;
+        top:-16%;
+    }
+    #flamebig{
+        width: 100vw;
+        height: 90vh;
+        background:rgba(255,255,255,0.7);
+        position: absolute;
+        top:0%;
+        display: none;
+       z-index: 100;
+    }
+    
+    /*
+    #kakonohanapage section{
+        background:linear-gradient(#eaffe0, #ffffff);
+        /sition: absolute;
+        top: 0;/
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -3;
+        position: relative;
+    }
+    .fla_list{
+        background: url(../image/show_soil.png) no-repeat;
+        background-position: 15%;
+        background-size: cover;
+
+        padding-top: 44px;
+        padding-bottom: 0;
+        padding-left: 6%;
+        width: 100%;
+        height: 290px;
+        position: absolute;
+        bottom: -3%;
+    }
+    .back img{
+        position: absolute;
+        z-index: 10;
+        width: 5%;
+        height: auto;
+        left: 5px;
+        bottom: 29%
+    }
+    .next img{
+        position: absolute;
+        z-index: 10;
+        height: auto;
+        width: 5%;
+        right: 5px;
+        bottom: 29%
+    }
+    .fla_list li{
+        width: 24%;
+        height: 24%;
+        background-color: #fff;
+        border: 1px solid #48af7e;
+        display: block;
+        margin: 8% 0 0 4%;
+    }
+    #kakonohanapage ul li:first-child{
+        margin: 8% 0 0 4%;    
+    }
+    #kakonohanapage p{
+        font-size: 1em;
+        text-align: center;
+        margin-left: 40%;
+    }
+    #kakonohanapage p:last-child{
+        margin-top: 30px;
+    }
+    .fra_tx{
+        position: absolute;
+        bottom: 65%;
+        right: 0;
+        width: 100%;
+    }
+    .fra_text{
+        
+    }
+    .fra_text img{
+        width: 144px;
+        height: auto;
+        position: absolute;
+        left: 5%;
+        bottom: 310px
+    }
+    
+    
+    
+    
+    h2{
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: normal;
+    }
+    ons-toolbar{
+        margin: 0;
+        padding: 0;
+        
+    }
+    */
+    h2{
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: normal;
+    }
+    /*header*/
+    .navigation-bar{
+        background: url(../image/header.png) no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+        border: none;
+    }
+    .back-button__icon::before{
+        color: #fff;
+    }
+    
+    
+    
+    
+    .ganbarihana1{
+        background-image:url(../image/ganbarihana1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+    }
+    .ganbarihana2{
+        background-image:url(../image/xxxx.png);
+    }
+    .ganbarihana3{
+        background-image:url(../image/xxxx.png);
+    }
+    .ganbarihana4{
+        background-image:url(../image/xxxx.png);
+    }
+    
+    
+    
+    
+    .sukkirihana1{
+        background-image:url(../image/sukkirihana1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+    }
+    .sukkirihana2{
+        background-image:url(../image/xxxx.png);
+    }
+    .sukkirihana3{
+        background-image:url(../image/xxxx.png);
+    }
+    .sukkirihana4{
+        background-image:url(../image/xxxx.png);
+    }
+    
+    
+    
+    
+    .hokkorihana1{
+        background-image:url(../image/hokkorihana1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+    }
+    .hokkorihana2{
+        background-image:url(../image/xxxx.png);
+    }
+    .hokkorihana3{
+        background-image:url(../image/xxxx.png);
+    }
+    .hokkorihana4{
+        background-image:url(../image/xxxx.png);
+    }
+    
+    
+    
+    
+    .uresiihana1{
+        background-image:url(../image/uresiihana1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+    }
+    .uresiihana2{
+        background-image:url(../image/xxxx.png);
+    }
+    .uresiihana3{
+        background-image:url(../image/xxxx.png);
+    }
+    .uresiihana4{
+        background-image:url(../image/xxxx.png);
+    }
+    
+    
+    
+    .oisiihana1{
+        background-image:url(../image/oisiihana1.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    border-radius: 50%;
+    width: 279px;
+    height: 279px;
+    
+    margin:80px auto 0 auto;
+    }
+    .oisiihana2{
+        background-image:url(../image/xxxx.png);
+    }
+    .oisiihana3{
+        background-image:url(../image/xxxx.png);
+    }
+    .oisiihana4{
+        background-image:url(../image/xxxx.png);
+    }
+    
+    
+    .tane1{
+    }
+    .tane2{
+        
+    }
+    .tane3{
+        
+    }
+    .tane4{
+        
+    }
+    #gif{
+        width: 100vw;
+    }
+    
+.kekka0_back1{
+        background: url(../image/fla0_back1.gif);
+}
+.kekka0_back2{
+        background: url(../image/fla0_back2.gif);
+}
+.kekka0_back3{
+        background: url(../image/fla0_back3.gif);
+}
+.kekka0_back4{
+        background: url(../image/fla0_back4.gif);
+}
+.kekka0_back5{
+        background: url(../image/fla0_back5.gif);
+}   
+    
+    
+    
+.kekka_back1{
+        background: url(../image/fla_back1.gif);
+}
+.kekka_back2{
+        background: url(../image/fla_back2.gif);
+}
+.kekka_back3{
+        background: url(../image/fla_back3.gif);
+}
+.kekka_back4{
+        background: url(../image/fla_back4.gif);
+}
+.kekka_back5{
+        background: url(../image/fla_back5.gif);
+}
+
+
+.kekka2_back1{
+        background: url(../image/fla2_back1.gif);
+}
+.kekka2_back2{
+        background: url(../image/fla2_back2.gif);
+}
+.kekka2_back3{
+        background: url(../image/fla2_back3.gif);
+}
+.kekka2_back4{
+        background: url(../image/fla2_back4.gif);
+}
+.kekka2_back5{
+        background: url(../image/fla2_back5.gif);
+}
+
+
+
+
+.kekka3_back1{
+        background: url(../image/fla3_back1.gif);
+}
+.kekka3_back2{
+        background: url(../image/fla3_back2.gif);
+}
+.kekka3_back3{
+        background: url(../image/fla3_back3.gif);
+}
+.kekka3_back4{
+        background: url(../image/fla3_back4.gif);
+}
+.kekka3_back5{
+        background: url(../image/fla3_back5.gif);
+}
+
+
+
+.kekka4_back1{
+        background: url(../image/fla4_back1.gif);
+}
+.kekka4_back2{
+        background: url(../image/fla4_back2.gif);
+}
+.kekka4_back3{
+        background: url(../image/fla4_back3.gif);
+}
+.kekka4_back4{
+        background: url(../image/fla4_back4.gif);
+}
+.kekka4_back5{
+        background: url(../image/fla4_back5.gif);
+}
+
+
+
+
+.kekka0_back1,.kekka0_back2,.kekka0_back4,.kekka0_back4,.kekka0_back5,
+.kekka_back1,.kekka_back2,.kekka_back4,.kekka_back4,.kekka_back5,
+.kekka2_back1,.kekka2_back2,.kekka2_back3,.kekka2_back4,.kekka2_back5,
+.kekka3_back1,.kekka3_back2,.kekka3_back4,.kekka3_back4,.kekka3_back5,
+.kekka4_back1,.kekka4_back2,.kekka4_back4,.kekka4_back4,.kekka4_back5
+{
+        background-position: 100% 100%;
+        background-size: 100%;
+        height: 100%;
+        transform:scaleX(1.01);
+        z-index: 3;
+} 
+
+    /*.kekka_back::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #fff url("../image/tuti_me.png") no-repeat;
+        background-size: 100%;
+        background-position: center bottom;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }*/
+    #saita-button span img,#oyasumi-button span img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    /*おやすみ*/
+    #fast{
+        background: url("../image/back_hare.png") no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    #end{
+        background: url("../image/end.png") no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    #end p{
+        text-align: center;
+        color: #fff;
+        padding-top: 40%; 
+    }
+    #fast2{
+        background: url("../image/back_hare.png") no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    #end2{
+        background: url("../image/end.png") no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    #end2 p{
+        text-align: center;
+        color: #fff;
+        padding-top: 40%; 
+    }
+    /*時間設計背景*/
+    #jikansetteipage section{
+        background: url("../image/time_img.png") no-repeat;
+        background-position: center center;
+        height: 100%;
+        background-size: contain;
+    }
+    
+    #kekkapage p,
+    #saitapage p,
+    #taneuerupage p,
+    #uetapage p{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 0.875em;
+    }
+    #uetapage p{
+        margin-top: 30%;
+    }
+    #kekkapage img,
+    #saitapage img,
+    #taneuerupage img,
+    #uetapage img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        height: auto;
+    }
+    #saitapage section{
+        background: url("../image/tuti.png") no-repeat;
+        background-size: 100%;
+        background-position: center bottom;
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100vw;
+    }
+    #tane{
+        width: 30%;
+        height: auto;
+        position: absolute;
+        top: 35%;
+        left: 0;
+        right: 0;
+    }
+    #uetaru{
+        
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+    }
+    .left img{
+        width: 33%;
+        height: auto;
+        position: relative;
+        top: 20%;
+        left: 10%;
+    }
+    
+    #tane_bg{
+    height: 375px;
+    background: url(../image/seed_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+    #tane_bg img{
+    margin-top: -10%;
+}
+#page1{
+    height: 100vh;
+    width:100vw;
+    position: absolute;
+    top:0;
+    z-index: 100;
+}
+
+#today{
+    position: absolute;
+    top:10px;
+    text-align: center;
+    width: 100%;
+}
+#oyasumitxt{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+}
+#oyasumitxt2{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#oyasumihana{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+}
+#oyasumihana2{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+}
+#hanagazou{
+    margin: 0;
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+    
+}
+#hanasetumei-button{
+    position: absolute;
+    bottom: 50px;
+    padding: 0;
+    
+}
+    
+#saitapage img{
+    margin-bottom: 0;
+    
+}

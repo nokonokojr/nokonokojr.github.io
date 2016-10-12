@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+  <title>Document</title>
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/angular.min.js"></script>
+ <script src="js/angular-animate.min.js"></script>
+ <script src="js/angular-resource.min.js"></script>
+ <script src="js/script.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="scss/css.css">
+</head>
+<body ng-controller="SliderController">
+  <header>
+    <nav>
+      <ul id="Category">
+        <li id="btn-fadein"><a href="#"></a>メニュー</li>
+        <li><span class="active" data-group="all">新着順</span></li>
+        <li>
+          <ul id="menu">
+            <li><img id="btn-fadeout" src="images/cancel.png" alt="btn"></li>
+            <li><span data-group="huukei">風景</span></li>
+            <li><span data-group="kabegami">壁紙</span></li>
+            <li><span data-group="hito">人</span></li>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main role="main">
+     <article>
+   <ul id="itemList">
+    <li class="item" ng-repeat="image in images" data-groups='["{{image.groups}}"]'>
+      <a href="images/{{image.src}}" data-lightbox="images"><img src="images/{{image.src}}"></a>
+    </li>
+   </ul>
+  </article>
+    </main>
+    <script src="js/lightbox.js"></script>
+    <script src="js/shuffle.js"></script>
+</body>
+</html>

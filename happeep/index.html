@@ -1,0 +1,497 @@
+<!-- できてないやつ
+過去の花：スライド、時間
+肥料：css,グラフ大きさ・機種によってズレあり
+色と言葉が違う
+
+
+
+
+
+-->
+
+
+
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="lib/onsenui/js/onsenui.min.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        document.addEventListener('init', function(event) {
+  var page = event.target;
+
+  
+  if (page.id === 'page2') {
+    page.querySelector('#jikansettei-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('jikansettei.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'jikansetteipage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+  if (page.id === 'page2') {
+    page.querySelector('#kakonohana-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('kakonohana.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'kakonohanapage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+if (page.id === 'page2') {
+    page.querySelector('#hanasodateru-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('hanasodateru.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'hanasodaterupage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+ if (page.id === 'hanasodaterupage') {
+    page.querySelector('#kekka-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('kekka.html', {data: {title: ''}});
+    };
+  } else if (page.id === 'kekkapage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+if (page.id === 'kekkapage') {
+    page.querySelector('#saita-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('saita.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'saitapage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+if (page.id === 'kekkapage') {
+    page.querySelector('#oyasumi-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('oyasumi.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'oyasumipage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+  if (page.id === 'saitapage') {
+    page.querySelector('#hanasetumei-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('taneueru.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'taneuerupage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+  if (page.id === 'taneuerupage') {
+    page.querySelector('#ueta-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('ueta.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'uetapage') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+  if (page.id === 'uetapage') {
+    page.querySelector('#oyasumi2-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('oyasumi2.html', {data: {title: ' '}});
+    };
+  } else if (page.id === 'oyasumipage2') {
+    page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
+  }
+  if (page.id === 'oyasumipage') {
+    page.querySelector('#home-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('page2.html');
+    };
+  }
+ if (page.id === 'oyasumipage2') {
+    page.querySelector('#home2-button').onclick = function() {
+      document.querySelector('#myNavigator').pushPage('page2.html');
+    };
+ }
+});
+
+    </script>
+</head>
+<body>
+    <ons-navigator id="myNavigator" page="page2.html"></ons-navigator>
+<ons-template id="page2.html">
+
+  <div id="page1">
+    <div id="hoge" class="toperia">
+    <h1 class="name"><img src="image/logo.png" alt="Floppiness"></h1>
+    <p class="kyatti"> 幸せ育てて、しっかり睡眠。</p>
+    </div>
+  </div>
+  <ons-page id="page2">
+        <ons-toolbar>
+          <div class="center"></div>
+        </ons-toolbar>
+        
+        
+  
+    <div class="toperia">
+    <h1 class="name"><img src="image/logo.png" alt="Floppiness"></h1>
+    <p class="kyatti"> 幸せ育てて、しっかり睡眠。</p>
+
+    <ons-button id="jikansettei-button" style="background-color: transparent;"><img src="image/time_btn.png" alt="寝る時間"></ons-button>
+    <ons-button id="hanasodateru-button" style="background-color: transparent;"><img src="image/grow_btn.png" alt="花を育てる"></ons-button>
+    <ons-button id="kakonohana-button" style="background-color: transparent;"><span onclick="album()"><img src="image/show_btn.png" alt="過去の花をみる"></span></ons-button>
+    </div>
+  </ons-page>
+</ons-template>
+
+
+
+
+
+
+
+
+
+
+<ons-template id="jikansettei.html">
+  <ons-page id="jikansetteipage">
+    <ons-toolbar>
+    <div class="left"><ons-back-button></ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+    <section>
+    <h2>時間設定</h2>
+    </section>
+  </ons-page>
+</ons-template>
+
+<ons-template id="kakonohana.html" style="padding:0;">
+  <ons-page id="kakonohanapage" style="padding:0;">
+    <ons-toolbar>
+    <div class="left"><ons-back-button></ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+
+    <h2>咲いた花</h2>
+    <div id="flamebig">
+    <div id="flamebig2">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="timebig"></p>
+        </div>
+        <div id="setumeitxt">
+            <h3 id="zokusei"></h3>
+            <p id="setumeibig"></p>
+        </div>
+        <img src="" alt="" id="albumbig">
+        <img src="image/close.png" class="close" id="albumclose">
+        </div>
+    </div>
+    
+    <ul id="album">
+        <li class="flame" id="flame0">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time0">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album0">  
+        </li>
+        
+    	<li class="flame" id="flame1">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time1">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album1">
+        </li>
+        
+    	<li class="flame" id="flame2">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time2">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album2">            
+        </li>
+        
+    	<li class="flame" id="flame3">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time3">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album3">            
+        </li>
+        
+    	<li class="flame" id="flame4">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time4">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album4">            
+        </li>
+        
+    	<li class="flame" id="flame5">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time5">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album5">            
+        </li>
+        
+    	<li class="flame" id="flame6">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time6">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album6">            
+        </li>
+        
+    	<li class="flame" id="flame7">
+        <div class="timetxt">
+            <h3>咲いた日</h3>
+            <p id="time7">--/--</p>
+        </div>
+            <img src="image/black_fla.png" alt="" id="album7">            
+        </li>
+        
+    </ul>
+    
+    
+  </ons-page>
+</ons-template>
+
+
+
+
+
+
+
+
+
+
+<ons-template id="hanasodateru.html">
+  <ons-page id="hanasodaterupage">
+    <ons-toolbar>
+    <div class="left"><ons-back-button></ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+    <!--<ons-button id="hanasodateruhensyuu-button">編集する</ons-button>-->
+    <section class="hanasodaterupage_back">
+    <h2>今日のいいこと</h2>
+    <ul>
+    <li><div class="aitem01"></div><p id="iikoto1"></p></li>
+    <li><div class="aitem02"></div><p id="iikoto2"></p></li>
+    <li><div class="aitem03"></div><p id="iikoto3"></p></li>
+    <li class="two"><div class="aitem04"></div><p id="iikoto4"></p></li>
+    <li class="two"><div class="aitem05"></div><p id="iikoto5"></p></li>
+    </ul>
+    <ons-button id="kekka-button" style="background-color: transparent;"><span onclick="senddata()"><img src="image/fla_btn.png" alt="いいこと肥料をあげる"></span></ons-button>
+    </section>
+    
+    <form action="index.html" name="iikoto1_form" class="aitem1">
+    <h2>どんないいこと？</h2>
+    <section class="iikoto_bg"><div class="aitem01" style="width:145px; height:145px;"></div></section><!--<p id="iikoto1"></p>-->
+    <div class="inputbox">
+    <input type="text" name="text1" placeholder="いいことを入力してください" class="txtin">
+    </div>
+    <p class="ct">あなたの気持ち</p>
+    
+    <ul class="category">
+    <li class="u" onclick="reclass1_4()"></li>
+    <li class="o" onclick="reclass1_5()"></li>
+    <li class="n" onclick="reclass1_2()"></li>
+    <li class="h" onclick="reclass1_3()"></li>
+    <li class="g" onclick="reclass1_1()"></li>
+    </ul>
+
+    <div class="formtext">
+    
+    <input type="button" value="" onclick="text1_1()" class="close">
+    
+    </div>
+    </form>
+    
+    <form action="index.html" name="iikoto2_form" class="aitem2">
+    <h2>どんないいこと？</h2>
+    <section class="iikoto_bg"><div class="aitem02" style="width:145px; height:145px;"></div></section>
+    <div class="inputbox">
+    <input type="text" name="text2" placeholder="いいことを入力してください" class="txtin">
+    </div>
+    <p class="ct">あなたの気持ち</p>
+    
+    <ul class="category">
+    <li class="u" onclick="reclass2_4()"></li>
+    <li class="o" onclick="reclass2_5()"></li>
+    <li class="n" onclick="reclass2_2()"></li>
+    <li class="h" onclick="reclass2_3()"></li>
+    <li class="g" onclick="reclass2_1()"></li>
+    </ul>
+  
+    <div class="formtext">
+    
+    <input type="button" value="" onclick="text1_2()" class="close">
+    
+    </div>
+    </form>
+    
+    <form action="index.html" name="iikoto3_form" class="aitem3">
+    <h2>どんないいこと？</h2>
+    <section class="iikoto_bg"><div class="aitem03" style="width:145px; height:145px;"></div></section>
+    <div class="inputbox">
+    <input type="text" name="text3" placeholder="いいことを入力してください" class="txtin">
+    </div>
+    <p class="ct">あなたの気持ち</p>
+        
+    <ul class="category">
+    <li class="u" onclick="reclass3_4()"></li>
+    <li class="o" onclick="reclass3_5()"></li>
+    <li class="n" onclick="reclass3_2()"></li>
+    <li class="h" onclick="reclass3_3()"></li>
+    <li class="g" onclick="reclass3_1()"></li>
+    </ul>
+   
+    <div class="formtext">
+    <input type="button" value="" onclick="text1_3()" class="close">
+   
+    </div>
+    </form>
+    
+    <form action="index.html" name="iikoto4_form" class="aitem4">
+    <h2>どんないいこと？</h2>
+    <section class="iikoto_bg"><div class="aitem04" style="width:145px; height:145px;"></div></section>
+    <div class="inputbox">
+    <input type="text" name="text4" placeholder="いいことを入力してください" class="txtin">
+    </div>
+    <p class="ct">あなたの気持ち</p>
+
+    <ul class="category">
+    <li class="u" onclick="reclass4_4()"></li>
+    <li class="o" onclick="reclass4_5()"></li>
+    <li class="n" onclick="reclass4_2()"></li>
+    <li class="h" onclick="reclass4_3()"></li>
+    <li class="g" onclick="reclass4_1()"></li>
+    </ul>
+    
+    <div class="formtext">
+    
+    <input type="button" value="" onclick="text1_4()" class="close">
+    </div>
+    
+    </form>
+    
+    <form action="index.html" name="iikoto5_form" class="aitem5">
+    <h2>どんないいこと？</h2>
+    <section class="iikoto_bg"><div class="aitem05" style="width:145px; height:145px;"></div></section>
+    <div class="inputbox">
+    <input type="text" name="text5" placeholder="いいことを入力してください" class="txtin">
+    </div>
+    <p class="ct">あなたの気持ち</p>
+ 
+    <ul class="category">
+    <li class="u" onclick="reclass5_4()"></li>
+    <li class="o" onclick="reclass5_5()"></li>
+    <li class="n" onclick="reclass5_2()"></li>
+    <li class="h" onclick="reclass5_3()"></li>
+    <li class="g" onclick="reclass5_1()"></li>
+    </ul>
+    
+    <div class="formtext">
+    
+    <input type="button" value="" onclick="text1_5()" class="close">
+
+    </div>
+    </form>
+  </ons-page>
+</ons-template>
+
+
+
+
+
+
+<ons-template id="kekka.html">
+  <ons-page id="kekkapage">
+    <ons-toolbar>
+    </ons-toolbar>
+    <div id="gif">
+    <p id="today" class="fadeout">今日の花</p>
+    <div id="back" class="fadeout"><canvas id="mycanvas"></canvas></div>
+    <p id="hanatxt" class="fadeout none"></p>
+    <div id="buttonbox">
+    <!--<div onclick="ad()" id="show" class="fadeout"><img src="image/kekka_btn.png" alt="成長を見る">-- 結果をみる--></div>
+    <ons-button style="background-color: transparent; width:80%;" id="saita-button" class="fadeout none"><span onclick="hana()"><img src="image/fla_show_btn.png" alt="花を見てみる"></span></ons-button>
+    <ons-button style="background-color: transparent; width:80%;" id="oyasumi-button" class="fadeout none"><span onclick="oyasumi()"><img src="image/good_night.png" alt="おやすみ"></span></ons-button>
+            
+    </div>
+    <!--<ons-button onclick="myNavigator.popPage()">編集完了</ons-button>
+    <div onclick="del()" class="show">ローカルストレージを削除</div>-->
+    </div>
+  </ons-page>
+</ons-template>
+
+<ons-template id="saita.html">
+  <ons-page id="saitapage">
+    <ons-toolbar>
+    </ons-toolbar>
+    <section>
+    <h2 id="hananame2"></h2>
+    <p id="setumei2"></p>
+    <img id="hanagazou" src="">
+    <ons-button style="background-color: transparent;" id="hanasetumei-button"><span onclick="tanederu()"><img src="image/next_btn.png" alt="次へ"></span></ons-button>
+    </section>
+  </ons-page>
+</ons-template>
+
+<ons-template id="taneueru.html">
+  <ons-page id="taneuerupage">
+    <ons-toolbar>
+    </ons-toolbar>
+    <h2>新しい種</h2>
+    <div id="tane_bg"><img id="tane" class="fadeout" src=""></div>
+    <p>新しい種が届きました。<br>
+今回の花とはまた違う幸せな花が咲きそう。</p>
+
+<ons-button style="background-color: transparent;" id="ueta-button" class="fadeout"><span onclick="taneume()"><img src="image/plant.png" alt="種を植える"></span></ons-button>
+
+    
+    
+    
+  </ons-page>
+</ons-template>
+
+<ons-template id="ueta.html">
+  <ons-page id="uetapage">
+    <ons-toolbar>
+    </ons-toolbar>
+    <div id="uetaru">
+    <p>種を植えました。</p>
+    <ons-button style="background-color: transparent; padding-top:340px;" id="oyasumi2-button"><span onclick="oyasumi2()"><img src="image/good_night.png" alt="おやすみ"></span></ons-button>
+    </div>
+  </ons-page>
+</ons-template>
+
+<ons-template id="oyasumi2.html">
+  <ons-page id="oyasumipage2">
+    <ons-toolbar>
+    <div class="left"><img id="home2-button" src="image/home.png" alt=""><!--<ons-back-button></ons-back-button>--></div>
+    </ons-toolbar>
+    <div id="end2">
+    <p id="oyasumitxt2" class="fadeout">今日はお疲れさま。<br>明日もいいことを見つけましょう。</p>
+    <div id="oyasumihana2"></div>
+    <div id="fast2">
+    </div>
+    </div>
+  </ons-page>
+</ons-template>
+
+<ons-template id="oyasumi.html">
+  <ons-page id="oyasumipage">
+    <ons-toolbar>
+    <div class="left"><img id="home-button" src="image/home.png" alt=""><!--<ons-back-button></ons-back-button>--></div>
+    </ons-toolbar>
+    <!--</ons-toolbar>-->
+    <div id="end">
+    <p id="oyasumitxt" class="fadeout">今日はお疲れさま。<br>明日もいいことを見つけましょう。</p>
+    <div id="oyasumihana"></div>
+    <div id="fast">
+    </div>
+    </div>
+  </ons-page>
+</ons-template>
+
+
+</body>
+</html>

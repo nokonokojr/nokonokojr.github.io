@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.easings.min.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script>(function($) {
+      $(function() {
+       $('#fullpage').fullpage({
+        anchors: ['page'],
+        resize : false,
+        controlArrows:false
+       });
+      });
+     })(jQuery);
+   </script>
+   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><img src="image/logo.png" alt="ロゴ"></h1>
+        <nav>
+           <ul>
+            <li><a href="#page/profile" onclick="nav1()" id="1" class="now">プロフィール</a></li>
+            <li><a href="#page/portfolio" onclick="nav2()" id="2">ポートフォリオ一覧</a></li>
+            <li><a href="#page/contact" onclick="nav3()" id="3">コンタクト</a></li>
+           </ul>
+        </nav>
+    </header>
+    
+    
+     <div id="fullpage">
+      <div class="section">
+      <article>
+       <div class="slide" id="b1" data-anchor="profile">
+        <div class="panel">
+        <div class="content" id="pro">
+        <div class="opa right">
+        <section>
+         <h2>プロフィール</h2>
+         <p>日本電子専門学校　Webデザイン科<br>
+         内山　凌<br>
+         フロントエンドエンジニアを目指している学生です。<br>
+         皆が当たり前のように使うようなサービスを作るのが夢です。<br>
+         詳しいプロフィールについてはWantedlyを一読ください。      
+         </p>
+         </section>
+         </div>
+         
+         <div class="opa">
+         <section>
+         <h3>SNS</h3>
+         <div class="sns"><a href="https://www.facebook.com/profile.php?id=100010440547083" target="_blank" class="face"><img src="image/FB-fLogo-Blue-broadcast-2.png" alt="facebook"></a><a href="https://www.wantedly.com/users/18366661" target="_blank" class="wanted"><img src="image/web_w_icon_128.png" alt="Wantedly"></a></div>
+         </section>
+         </div>
+         
+         <div class="opa">
+         <section>
+         <h2>このサイトについて</h2>
+         <p>ポートフォリオサイトです。<br>
+         アピールするためのサイトということで<br>背景は私の写真にしてみました。</p>
+         </section>
+        </div>
+        
+        </div>
+        </div>
+       </div>
+       </article>
+       <article>
+       <div class="slide" id="b2" data-anchor="portfolio">
+        <div class="panel">
+        <div class="content" id="nomal">
+        <section>
+         <h2>ポートフォリオ一覧</h2>
+         <p>専門学校に入学してから制作した作品です。左から制作順に並んでいます。</p>
+         
+         <div id="moresakuhin1">
+         <div class="close"><img src="../image/cancel.png" alt="閉じるボタン"></div>
+         <div class="syousai">
+         <img src="image/semina.jpg" alt="スペシャルサイト画面" class="sakuhinimg">
+             <div class="gijutu">
+               <section>
+                <h3>使用した技術</h3>
+                 <p>
+                 HTML5、CSS3、javascript、jQuery、jQueryプラグインを使用しました。
+                 </p>
+              </section>
+             </div>
+             <div class="sakuhin">
+                <section>
+                 <h3>作品について</h3>
+                 <p>
+                 学校に入学して初めて企画から実装までを1人で行ったサイトです。<br>
+                 学科のプロジェクトチームの一つである「セミナーチーム」を入学検討者へアピールするサイトになっています。
+                 </p>
+              </section>
+             </div>
+             <div class="btn"><a href="specialsite/index.html" target="_blank" class="sakuhin_btn">作品を見に行く</a></div>    
+             </div>
+         </div>
+         
+         <div id="moresakuhin2">
+         <div class="close"><img src="../image/cancel.png" alt="閉じるボタン"></div>
+         <div class="syousai">
+         <img src="image/walk.png" alt="Javascript課題サイト画面" class="sakuhinimg">
+             <div class="gijutu">
+                <section>
+                 <h3>デザインについて</h3>
+                 <p>「walk in rain」の名前から連想し、傘を使用しました。<br>
+                 更に雨の暗い印象を無くし、楽しい気分で使って欲しかったので虹色にしました。<br>
+                 改善点としては名前の「Walk」から背景に靴を降らせると更に良くなると思います。</p>
+              </section>
+             </div>
+             <div class="sakuhin">
+                <section>
+                 <h3>作品について</h3>
+                 <p>授業の課題で出された、APIを使用したWEBアプリ制作の作品です。<br>
+                 天気予報のAPIを使用しました。<br>
+                 この課題ではチームを組み、デザインを担当しました。</p>
+              </section>
+             </div>
+             <div class="btn"><a href="javascript/index.html" target="_blank" class="sakuhin_btn">作品を見に行く</a></div>
+             </div>
+         </div>
+         
+         <div id="moresakuhin3">
+         <div class="close"><img src="../image/cancel.png" alt="閉じるボタン"></div>
+         <div class="syousai">
+         <img src="image/sutoresu.jpg" alt="進級制作サイト画面" class="sakuhinimg">
+             <div class="gijutu">
+                <section>
+                 <h3>使用した技術</h3>
+                 <p>HTML5、CSS3、javascript、jQuery、jQueryプラグインを使用しました。</p>
+              </section>
+             </div>
+             <div class="sakuhin">
+                <section>
+                 <h3>作品について</h3>
+                 <p>進級制作の課題として企業の方からお題を頂き、制作したサイトです。<br>
+                 労働安全衛生法の改正によりストレスチェックが義務化されたことから、「個人でストレスを管理できるWebサイトの制作」という課題でした。<br>
+                 身近にあるスマートフォンやウェアラブル端末でストレス管理をし、Webサイトではデータ管理などの役割を持たせました。<br>制作した作品はストレス自己管理アプリのサイトとなっています。<br>
+                 企画から制作まで1人で行いました。</p>
+              </section>
+             </div>
+             <div class="btn"><a href="sinkyu/index.html" target="_blank" class="sakuhin_btn">作品を見に行く</a></div>
+             </div>
+         </div>
+         
+         <div id="moresakuhin4">
+         <div class="close"><img src="../image/cancel.png" alt="閉じるボタン"></div>
+         <div class="syousai">
+         <img src="image/photo.jpg" alt="Photoviewer画面" class="sakuhinimg">
+             <div class="gijutu">
+                <section>
+                 <h3>使用した技術</h3>
+                 <p>
+                 HTML5、CSS3、javascript、jQuery、Angularjs、jQueryプラグインを使用しました。<br>
+                 JSONで写真のデータを管理しました。<br>
+                 </p>
+              </section>
+             </div>
+             <div class="sakuhin">
+                <section>
+                 <h3>作品について</h3>
+                 <p>授業の課題で出された、スマートフォン用のPhotoviewerの制作の作品です。<br>
+                 機能、技術についての指定はなく、自由に制作しました。
+                 </p>
+              </section>                 
+             </div>
+             <div class="btn"><a href="photoviewer/index.html" target="_blank" class="sakuhin_btn">作品を見に行く</a></div>
+             </div>
+         </div>
+         
+         <div id="moresakuhin5">
+         <div class="close"><img src="../image/cancel.png" alt="閉じるボタン"></div>
+         <div class="syousai">
+         <img src="image/flop.gif" alt="Happeep画面" class="sakuhinimg">
+             <div class="gijutu">
+                <section>
+                 <h3>使用した技術</h3>
+                 <p>
+                 Monaca、onsenUI、HTML5、CSS3、javascript、Angularjs、jQuery、jQueryプラグインを使用しました。<br>
+                 localstorageでデータの管理をしました。
+                 </p>
+              </section>
+             </div>
+             <div class="sakuhin">
+                <section>
+                 <h3>作品について</h3>
+                 <p>授業の課題で出された、ハイブリットアプリ制作の作品です。<br>
+                 企画から実装までを行う課題で、チームを組み、プログラムを担当しました。<br>
+                 寝る前にスマホを触るなどで夜更かしをしてしまうという悩みから発想したアプリです。<br>
+                 夜更かしの原因は日々の充実感のなさやストレスという調べから、それらを解消するために「いいこと」を肥料として花にあげ、その日の充実感を与えることで夜更かしを防止するアプリを作りました。スマートフォンのサイズに合わせてご覧ください。
+                 </p>
+              </section>
+             </div>
+             <div class="btn"><a href="happeep/index.html" target="_blank" class="sakuhin_btn">作品を見に行く</a></div>
+             </div>
+         </div>
+         
+         <ul id="sakuhin">
+          <li id="sakuhin1"><img src="image/semina.jpg" alt="スペシャルサイト画面"><p class="name">スペシャルサイト<br><span class="year">制作した時：1年生</span></p></li>
+          <li id="sakuhin2"><img src="image/walk.png" alt="Javascript課題サイト画面"><p class="name">Javascript課題サイト<br><span class="year">制作した時：1年生</span></p></li>
+          <li id="sakuhin3"><img src="image/sutoresu.jpg" alt="進級制作サイト画面"><p class="name">進級制作サイト<br><span class="year">制作した時：1年生</span></p></li>
+          <li id="sakuhin4"><img src="image/photo.jpg" alt="Photoviewer画面"><p class="name">Photoviewer<br><span class="year">制作した時：2年生</span></p></li>
+          <li id="sakuhin5"><img src="image/flop.gif" alt="Happeep画面"><p class="name">Happeep<br><span class="year">制作した時：2年生</span></p></li>
+         </ul>
+         </section>
+         </div>
+        </div>
+       </div>
+       </article>
+       <article>
+       <div class="slide" id="b3" data-anchor="contact">
+        <div class="panel">
+        <div class="content">
+        <section>
+         <h2>コンタクト</h2>
+         <address>
+          <span id="mall">Mail : u.ryo.1129#gmail.com</span><br>
+          ※#は＠に置き換えて下さい。
+         </address>
+         </section>
+         </div>
+        </div>
+       </div>
+       </article>
+      </div>
+     </div>
+        
+</body>

@@ -1,0 +1,1080 @@
+/*-----------共通部分----------------------------*/
+html,body{
+ background: #f5f4f4;
+ 
+}
+a:link{ 
+ color:#494949;
+ text-decoration:none
+}
+a:visited{
+ color:#494949;
+ text-decoration:none
+}
+
+#conteinar{
+ width: 1024px;
+ margin:0 auto;
+}
+h1 a{
+    padding:15px 0;
+}
+/*-----------header部分----------------------------*/
+header{
+ background: #ffffff;
+ height: 85px;
+ box-shadow: 0px 2px 3px #525252;
+}
+#topline{
+ height: 15px;
+ width: 100%;
+ background: #8fbc8f;
+}
+
+h1{
+ float: left;
+ width: 210px;
+}
+
+.icon1{
+ float: right;
+ text-align: center;
+}
+.icon1 a{
+ height: 70px;
+ width: 75px;
+ background: #A9DDB6;
+ float: right;
+}
+.icon1 a:hover{
+ background: #9bcca8;
+}
+.icon1 img{
+ margin:10% 0 0 0;
+}
+
+.icon1 p{
+ color: #ffffff;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ font-size: 0.9em;
+ font-weight: bold;
+ margin-top:8px;
+}
+
+.menu{
+ float: right;
+ text-align: center;
+ height: 70px;
+ width: 75px;
+ background:#cfe6d4;
+ cursor:pointer;
+ position: relative;
+}
+.menu:hover{
+ background: #b6ccbc;
+}
+.menu1
+{ width:40px; height:6px; background-color:#fff; position:absolute; top:10px; left:15px;} 
+.menu2
+{ width:40px; height:6px; background-color:#fff; position:absolute; top:23px; left:15px;} 
+.menu3
+{ width:40px; height:6px; background-color:#fff; position:absolute; top:37px; left:15px;} 
+.menu1,.menu2,.menu3
+{ transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; /* opera */
+  -moz-transition: all 0.5s ease-out; /* firefox */
+  -webkit-transition: all 0.5s ease-out; /* chrome, safari */
+  -ms-transition: all 0.5s ease-out; /* ie */ }
+.menuclick1
+{ top:20px;
+  -moz-transform: rotate(405deg);
+  -webkit-transform: rotate(405deg);
+  -o-transform: rotate(405deg);
+  -ms-transform: rotate(405deg);
+  transform: rotate(405deg); }
+.menuclick2
+{ opacity:0;}
+.menuclick3
+{ top:20px;
+  -moz-transform: rotate(-405deg);
+  -webkit-transform: rotate(-405deg);
+  -o-transform: rotate(-405deg);
+  -ms-transform: rotate(-405deg);
+  transform: rotate(-405deg); }
+
+.menu p{
+ color: #ffffff;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ font-size: 0.9em;
+ font-weight: bold;
+ margin-top:51px;
+}
+.menunav{
+ display: none;
+ position: absolute;
+ top:85px;
+ right: 20px;
+ z-index: 5;
+ text-align: center;
+ background-color: #fff;
+ border: solid #8fbc8f 3px;
+ border-top:none;
+ font-size: 0.9em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+.select{
+ padding: 10px 10px;
+}
+.select:hover{
+ background:#d6f2dc;
+}
+.select:first-child{
+ margin-bottom: -14px;
+}
+.selectedd{
+ padding: 10px 10px;
+ background: #d6f2dc;
+}
+.selectfirst{
+ margin-bottom: -14px;
+}
+.selectfirst2{
+ margin-top: -14px;
+}
+/*-----------header部分終わり----------------------------*/
+
+
+
+
+
+/*-----------footer部分----------------------------*/
+footer{
+ width: 100%;
+ }
+#footer{
+ height: 135px;
+ background: #fff;
+ clear: both;
+ 
+ 
+ }
+#bottomline{
+ height: 5px;
+ background: #8fbc8f;
+}
+
+#fcontent{
+ width: 950px;
+ overflow: hidden;
+ margin: 30px auto;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ font-size: 1em;
+}
+
+#map{
+ float: left;
+}
+
+#map2{
+ margin-left: 40px;
+ margin-right: 15px;
+ float: left;
+ 
+ 
+}
+#map li{
+ margin-bottom: 8px;
+}
+
+#map2 li{
+ margin-bottom: 8px;
+}
+
+#map li a:hover{
+ color: #a5a5a5;
+}
+
+#map2 li a:hover{
+ color: #a5a5a5;
+}
+.midasi{
+ height: 7px;
+ width: 7px;
+ margin-top:4%; 
+ margin-right: 6px;
+ background: #f9e073;
+ float: left;
+}
+.midasi2{
+ height: 7px;
+ width: 7px;
+ margin-top:6%; 
+ margin-right: 6px;
+ background: #f9e073;
+ float: left;
+}
+
+.banaeria{
+height: 0px;
+}
+.banaeria img{
+ margin-left: 150px;
+}
+.banaeria img:last-child{
+ margin-left: 50px;
+}
+
+#copyline{
+ padding: 3px 0;
+ background: #e6e6e6;
+ font-size: 0.7em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ text-align: center;
+}
+
+
+/*-----------footer部分終わり----------------------------*/
+
+/*-----------共通部分終わり----------------------------*/
+
+/*-----------トップページ----------------------------*/
+/*-----------トップページのheader----------------------------*/
+#topheader{
+ background: #ffffff;
+ height: 485px;
+ box-shadow: 0px 2px 3px #525252;
+}
+#theTarget{
+ height: 400px;
+ background: #000;
+ clear: both;
+ position: relative;
+ overflow: hidden;
+}
+#img1{
+ background-image: url(../images/suraido1.png);
+}
+#img2{
+ background-image: url(../images/suraido2.png);
+}
+#img3{
+ background-image: url(../images/suraido3.png);
+}
+
+#loginbox{
+ width: 290px;
+ height: 220px;
+ border: solid #8fbc8f 5px;
+ background: #fff;
+ position: absolute;
+ top:125px;
+ left: 50%;
+ z-index: 1;
+ margin-left: 150px;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+
+#logc{
+ float: left; 
+}
+
+#newc{
+ float: left; 
+}
+
+#logc a{
+ display: inline-block;
+ padding: 13px 33.5px;
+ background: #fff;
+ font-size: 1.2em;
+ margin-bottom: 20px;
+}
+
+#newc a{
+ display: inline-block;
+ padding: 13px 33.5px;
+ background: #fff;
+ border-bottom: solid #8fbc8f 2px;
+ border-left: solid #8fbc8f 2px;
+ font-size: 1.2em;
+ margin-bottom: 20px;
+}
+
+#frmbox{
+ text-align: center;
+ clear: both;
+}
+.frm{
+ margin-top: 20px;
+ font-size: 0.8em;
+ color:#494949;
+}
+.frm input{
+ margin-left: 15px;
+}
+
+#loginbtn a{
+ display: inline-block;
+ margin-top: 20px;
+ padding: 11.5px 49px;
+ background: #f9e073;
+ font-size: 1.06em;
+}
+#loginbtn a:hover{
+ background: #fff;
+ padding: 8.5px 43px;
+ border: solid #f9e073 3px;
+ 
+}
+#pshoge{
+ margin-top: 2%;
+ font-size: 0.7em;
+}
+#pshoge a:hover{
+ color:#a9a9a9;
+}
+
+/*-----------トップページののheader終わり----------------------------*/
+
+.white{
+ height: 500px;
+ background: #fff;
+ box-shadow: 0px 2px 3px #525252;
+ border-top: solid #d3d3d3 2px;
+ 
+ 
+}
+.nomal{
+ height: 500px;
+ 
+}
+.contentsbox{
+ height: 500px;
+ width: 905px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+.right{
+ float: right;
+ margin-top: -13px;
+}
+.right2{
+ float: right;
+ margin-top:-34px;
+}
+
+.left{
+ float: left;
+ margin-top:28px;
+}
+.textbox{
+ float: right;
+}
+
+.white h2{
+ width: 450px;
+ margin-bottom: 30px;
+ font-size: 2.5em;
+ font-weight: bold;
+ letter-spacing:0.05em;
+ line-height:1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+.white p{
+ width: 460px;
+ font-size: 1.06em;
+ line-height:1.5em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ color:#3c3c3c;
+}
+.textbox h2{
+ margin-bottom: 30px;
+ font-size: 2.5em;
+ font-weight: bold;
+ letter-spacing:0.05em;
+ line-height:1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+.textbox p{
+width: 400px;
+ font-size: 1.06em;
+ line-height:1.5em;
+ color:#3c3c3c;
+ font-family:"メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+#m1{
+ margin-top: 131px;
+}
+#m2{
+ margin-top: 118px;
+}
+#m3{
+ margin-top: 117px;
+}
+
+#m4{
+ margin-top: 87px;
+ margin-bottom: 62px;
+ font-size: 2.5em;
+ font-weight: bold;
+ letter-spacing:0.05em;
+ line-height:1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ text-align: center;
+}
+
+#m5{
+ width: 450px;
+ margin-bottom: 24px;
+ margin-left: 10px;
+ float:left; 
+ font-size: 1.2em;
+ font-weight: bold;
+ letter-spacing:0.05em;
+ line-height:1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+
+.contentlink{
+ width: 580px;
+ margin: 0 auto;
+ 
+}
+.contentlink li{
+ width: 250px;
+ height: 50px;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-bottom: 40px;
+ float: left
+}
+.contentlink li a{
+ display: block;
+ width: 240px;
+ padding: 17px 0;
+ padding-left: 10px;
+ background:  #8fbc8f;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ font-size: 1.06em;
+ font-weight: 100;
+ letter-spacing:0.05em;
+ color: #fff;
+}
+.contentlink li a:hover{
+ border:solid #a3d6b0 3px;
+ width: 237px;
+ padding: 14px 0;
+ padding-left: 7px;
+ background: #fff;
+ color: #3c3c3c;
+}
+.contentlink li a img{
+ float:right;
+ margin-right: 5px;
+ margin-top: -3px;
+}
+
+.apuri{
+ height: 500px;
+ background: #fff;
+ box-shadow: 0px 2px 3px #525252;
+ border-top: solid #d3d3d3 2px;
+}
+
+.apuri p{
+ width: 460px;
+ font-size: 0.87em;
+ line-height:1.5em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ color:#3c3c3c;
+ margin-bottom:27px; 
+}
+#appmidasi img{
+ float: left;
+}
+
+#linkeria{
+ width: 430px;
+ 
+}
+#ap{
+ width: 203px;
+ float: left;
+}
+#ap .qr{
+ margin: 0 28px;
+}
+
+#ad{
+ width: 173px;
+ margin-left: 40px;
+ float: left;
+ 
+}
+#ad .qr{
+ margin: 0 13px;
+ 
+}
+
+#appmidasi{
+ margin-top:75px;
+}
+
+.apuri .right2{
+ margin-top: 1px
+}
+
+
+/*-----------トップページ終わり----------------------------*/
+
+/*-----------会員ページ----------------------------*/
+#kanri{
+ width: 696px;
+ height: 496px;
+
+ background: #fff;
+ float: left;
+ border: solid #9f8d6d 2px;
+text-align: center;
+}
+#kanri img{
+height:100% ;
+width:100% ;
+}
+#syurui{
+    margin-top:50px;
+}
+#syurui a{
+ width: 324px;
+ height: 220px;
+ padding-top: 30px;
+ background: #8deba6;
+ color: #fff;
+ font-size: 1.8em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ text-align: center;
+ float: left;
+}
+#syurui a:hover{
+ background: #c0eecc;
+}
+#syurui a img{
+ margin-top: 10px;
+}
+
+#heikin a{
+ width: 324px;
+ height: 220px;
+ padding-top: 30px;
+ background: #84a7ec;
+ color: #fff;
+ font-size: 1.8em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ text-align: center;
+ float: left;
+}
+#heikin a:hover{
+ background: #b8c9ed;
+}
+#heikin a img{
+ margin-top: 15px;
+ }
+#byouki a{
+ width: 512px;
+ height:200px;
+ margin-bottom:50px;
+ background: #ee8888;
+ color: #fff;
+ font-size: 1.8em;
+ font-family:  "メイリオ", Meiryo, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ float: left;
+}
+#byouki a:hover{
+ background: #edb5b5;
+}
+
+#kaisyou a{
+ width: 512px;
+ height: 200px;
+ background: #f2cf38;
+ color: #fff;
+ font-size: 1.8em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ float: left;
+}
+#kaisyou a:hover{
+ background: #f9e073;
+}
+
+
+#byouki a img{
+ margin:  34px 10px 0 20px;
+ float: left;
+}
+#kaisyou a img{
+ margin:  26px 65px 0 20px;
+ float: left;
+}
+#byouki a p{
+ margin-top: 85px;
+ float: left;
+}
+#kaisyou a p{
+ margin-top: 85px;
+ float: left;
+}
+
+
+
+
+
+/*-----------会員ページ終わり----------------------------*/
+
+/*-----------平均ストレスページ----------------------------*/
+
+#age{
+ width: 170px;
+ font-size: 16px;
+ float: left;
+ margin: 0 236px 0 235px;
+}
+
+#job{
+ width: 170px;
+ font-size: 16px;
+ clear: both;
+}
+
+#heikinmidasi{
+ margin-top: 30px;
+ font-size: 1.3em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ 
+}
+
+#heikinbun{
+ margin:5px 0 10px 0;
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+
+#heikincontents{
+ width: 1024px;
+ height: 700px;
+ background: #fff;
+ border: solid #8fbc8f 3px;
+ border-bottom: none;
+}
+
+#kekka{
+ height: 500px;
+ text-align: center;
+}
+
+#kekka p{
+ display: inline-block;
+ font-size: 2em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ color:#3c3c3c;
+ margin-top: 251px;
+ padding: 0 20px 15px 20px;
+ border-bottom: solid #f9e073 4px;
+ 
+}
+/*-----------平均ストレスページ終わり----------------------------*/
+
+
+
+/*-----------病気一覧ページ----------------------------*/
+
+#byoukimidasi{
+ margin-top: 30px;
+ font-size: 1.3em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ 
+}
+
+#byoukibun{
+ margin:5px 0 10px 0;
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+
+.categori{
+ width: 214px;
+ border: solid #8fbc8f 3px;
+ border-bottom: none;
+ margin-top: 15px;
+ background: #fff;
+ float: left;
+}
+.categori h3{
+ margin: 20px 0 10px 0;
+ display: inline-block;
+ font-size: 1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ 
+}
+
+.cmidasi{
+ height: 10px;
+ width: 10px;
+ margin: 8px 8px 0 24px;
+ background: #f9e073;
+ float: left;
+ 
+}
+
+#seisinc{
+ overflow: hidden;
+ padding-left: 20px;
+ padding-bottom: 10px;
+ border-bottom: solid #8fbc8f 3px;
+}
+#seisinc li{
+ width: 100px;
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-bottom: 16px;
+ float: left;
+}
+#seisinc li:nth-child(odd){
+ clear: both;
+}
+#seisinc li:nth-child(even){
+ width: 80px;
+}
+
+#sintaic{
+ margin-left: 20px;
+ clear: both;
+}
+
+#sintaic li{
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-bottom: 16px;
+}
+
+#sintaic li:last-child{
+ margin-bottom: 0px;
+ padding-bottom: 100%;
+}
+
+#byoukicontents{
+ width:668px;
+ height: 805px;
+ background: #fff;
+ border: solid #f9e073 3px;
+ border-bottom: none;
+ margin-right:50px;
+ margin-top:15px;
+ padding-bottom: 13px;
+ float: right;
+}
+
+.syoujougrup{
+ width: 648px;
+ margin: 15px 0px 0 15px;
+ overflow: hidden;
+}
+#byoukicontents li{
+ width: 206px;
+ height: 245px;
+ margin: 2px 8px 8px 2px;
+ float: left;
+ position: relative;
+ font-size:1.2em;
+ text-align: center;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+
+.ikaiyou{
+ background-image: url(../images/ikaiyou.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+ 
+}
+.utu{
+ background-image: url(../images/utu.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+.hennzutuu{
+ background-image: url(../images/zutuu.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+.kabinsei{
+ background-image: url(../images/ityou.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+.jiritusinnkei{
+ background-image: url(../images/jiritu.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+.sinkei{
+ background-image: url(../images/sinnkei.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+#byoukicontents li a{
+ width: 206px;
+ padding: 21px 0;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ background: #f9e073;
+ font-weight: bold;
+}
+#byoukicontents li a:hover{
+ background: #f2cf38;
+}
+
+
+/*-----------病気一覧ページ終わり----------------------------*/
+
+
+
+
+
+/*-----------解消法ページ----------------------------*/
+
+#sintaik{
+ margin-top: 10px;
+ padding-left: 20px;
+ clear: both;
+ border-bottom: solid #8fbc8f 3px;
+}
+
+#sintaik li{
+ width: 38%;
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-bottom: 16px;
+ margin-left: 20px;
+}
+
+#sintaik li a:hover{
+ color: #a5a5a5;
+}
+
+
+#seisink{
+ margin-top: 10px;
+ margin-left: 20px;
+ clear: both;
+}
+
+#seisink li{
+ font-size:0.9em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-bottom: 16px;
+ margin-left: 20px;
+}
+#seisink li a:hover{
+ color: #a5a5a5;
+}
+
+#seisink li:last-child{
+ padding-bottom: 100%;
+}
+#stay{
+ border-bottom:solid #f9e073 2px ;
+}
+
+
+#kaisyoucontents{
+ width:668px;
+ height: 770px;
+ background: #fff;
+ border: solid #f9e073 3px;
+ border-bottom: none;
+ margin-right:50px;
+ margin-top:15px;
+ float: right;
+ 
+}
+@-moz-document url-prefix() {
+  #kaisyoucontents{
+ width:668px;
+ height: 776px;
+ background: #fff;
+ border: solid #f9e073 3px;
+ border-bottom: none;
+ margin-right:50px;
+ margin-top:15px;
+ float: right;
+  }
+}
+@media all and (-ms-high-contrast:none){
+  #kaisyoucontents{
+ width:668px;
+ height: 776px;
+ background: #fff;
+ border: solid #f9e073 3px;
+ border-bottom: none;
+ margin-right:50px;
+ margin-top:15px;
+ float: right;
+  }
+}
+#kaisyoucontents h4{
+ font-size: 1.3em;
+ color:#3c3c3c;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-top: 25px;
+ margin-bottom: 15px;
+ margin-left: 35px;
+}
+
+#setumei{
+ height:70px ;
+ margin:5px 0 0 0;
+ font-size:0.9em;
+ line-height:1.5em;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+ margin-left: 35px;
+}
+
+#selectcontents{
+ width: 600px;
+ height: 625px;
+ margin: 0 auto;
+ 
+}
+
+.genin{
+ width: 600px;
+ border-bottom: solid #8fbc8f 3px;
+ margin-bottom: 15px;
+}
+.genin li{
+ display: inline-block;
+ padding: 5px 10px 3px 10px;
+ border:solid #8fbc8f 2px;
+ border-bottom: none;
+ color:#3c3c3c;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+.genin li:hover{
+ background: #8fbc8f;
+ cursor: pointer;
+}
+.active{
+ background: #8fbc8f;
+}
+#itemlist{
+
+}
+.kaisyougrop li{
+ width: 190px;
+ height: 200px;
+ margin: 2px 15px 15px 2px;
+ margin-top: 15px;
+ margin-right: 15px;
+ font-size:0.9em;
+ text-align: center;
+ font-family:  "メイリオ", MeiryoUI, sans-serif ,Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN";
+}
+.kaisyougrop li:nth-child(3n){
+ 
+ margin: 0 0px 15px 0;
+}
+#nyuusyoku{
+ background-image: url(../images/nyuuyoku.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+ 
+}
+#sanngurasu{
+ background-image: url(../images/sangurasu.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+#hiyake{
+ background-image: url(../images/hiyake.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+#mahura{
+ background-image: url(../images/mahura.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+#syouga{
+ background-image: url(../images/syouga.png);
+ background-repeat: no-repeat;
+ box-shadow: 0px 2px 3px #525252;
+}
+.kaisyougrop li a{
+ width: 190px;
+ padding: 23px 0;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ background: #f9e073;
+ font-weight: bold;
+}
+#mahura a{
+ padding: 16px 0;
+}
+
+.kaisyougrop li a:hover{
+ background: #f2cf38;
+}
+#itemList{
+ padding-bottom: 5px;
+}
+/*-----------解消法ページ終わり----------------------------*/
+
+/*-----------pagetop.js----------------------------*/
+#page-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 90%;
+}
+#back {
+    background: #a3d6b0;
+    width: 100%;
+	height: 100%;
+    display: block;
+    padding: 20px 0px 20px 20px;
+    
+}
+#back:hover {
+    background: #92C09E;
+    
+}
+
+#sankaku{
+    width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid #fff;
+	border-left: 15px solid transparent;
+}
+/*-----------pagetop.js終わり----------------------------*/
+
+
+/* ---------- 必須CSS ここから ------------ */
+
+#result [class*="hidden-"] {display: none;}
+
+/* ---------- 必須CSS ここまで ------------ */
+
+
+/* ここから下は見た目の調整 */
+#select {margin-bottom: 0em;}
+#result section{border: 1px solid #888; padding: 5px;}
+#result section p{margin: 0px;}
+

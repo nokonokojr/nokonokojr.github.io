@@ -1,0 +1,75 @@
+[
+    {
+    "src": "1.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "2.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "3.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "4.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "5.jpg",
+    "groups": "huukei"
+    },
+
+    {
+    "src": "6.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "7.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src": "8.jpg",
+    "groups": "huukei"
+    },
+    {
+    "src":"pink_rice.png",
+    "groups":"kabegami"
+    },
+    {
+    "src":"4cb42663.jpg",
+    "groups":"kabegami"
+    },
+    {
+    "src":"stardust.png",
+    "groups":"kabegami"
+    },
+    {
+    "src": "720a6040.jpg",
+    "groups": "kabegami"
+    },
+    {
+    "src":"pink_rice.png",
+    "groups":"kabegami"
+    },
+    {
+    "src":"4cb42663.jpg",
+    "groups":"kabegami"
+    },
+    {
+    "src":"pottyari.jpg",
+    "groups":"hito"
+    },
+    {
+    "src":"doyagao.jpg",
+    "groups":"hito"
+    },
+    {
+    "src":"doragenai.jpg",
+    "groups":"hito"
+    },
+    {
+    "src": "720a6040.jpg",
+    "groups": "kabegami"
+    }
+]

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <title>withStress</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/smart.css" />
+    <link rel="stylesheet" type="text/css" href="css/skippr.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/skippr.js"></script>
+    <script src="js/pagetop.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+$("document").ready(function() {
+    $("#theTarget").skippr();
+});
+
+</script>
+  </head>
+  <body>
+    <header id="topheader">
+      <div id="topline"></div>
+      <h1>
+        <img src="images/rogo.png" alt="withストレス">
+      </h1>
+      <div class="icon1">
+        <a href="kaiin/index.html">
+          <img src="images/yuza.png" alt="会員ページ">
+          <p>会員ページ</p>
+        </a>
+      </div>
+      <div class="menu">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+        <p>メニュー</p>
+      </div>
+      <nav>
+        <ul class="menunav">
+          <li class="selectedd selectfirst">トップページ</li>　
+          <li class="select">
+            <a href="heikin/index.html">みんなの平均ストレス値</a>
+          </li>
+          <li class="select">
+            <a href="byouki/index.html">ストレスによる病気一覧</a>
+          </li>
+          <li class="select">
+            <a href="#">ストレス種類診断</a>
+          </li>
+          <li class="select">
+            <a href="kaisoyu/index.html">ストレス解消法</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="slidercontainer">
+        <div id="theTarget">
+          <div id="img1"></div>
+          <div id="img2"></div>
+          <div id="img3"></div>
+        </div>
+      </div>
+      <div id="loginbox">
+        <div id="logc">
+          <a href="">ログイン</a>
+        </div>
+        <div id="newc">
+          <a href="">新規登録</a>
+        </div>
+        <ul id="frmbox">
+          <li class="frm">ユーザー名
+            <input type="text">
+          </li>
+          <li class="frm">パスワード
+            <input type="text">
+          </li>
+          <li id="loginbtn">
+            <a href="kaiin/index.html">ログインする</a>
+          </li>
+          <li id="pshoge">
+            <a href="#">※パスワードを忘れた方はこちら</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <article>
+      <div class="white">
+        <div class="contentsbox">
+          <section>
+            <div class="content_img">
+              <figure class="right">
+                <img src="images/hart.png" alt="心拍">
+              </figure>
+            </div>
+            <div class="content_txt">
+              <h2 id="m1">心拍を利用した
+                <br>ストレスチェック
+              </h2>
+              <p>スマートフォンやウェアラブル端末を使用して
+                <br>心拍の波形を読み取り、自律神経のバランスを解析します。
+              </p>
+              <p>米軍やNASAの宇宙飛行士でも、
+                <br>こうした自立神経のバランスを解析し、
+                <br>ストレスを測定する技術が使用されています
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="nomal">
+        <div class="contentsbox">
+          <section>
+            <div class="textbox">
+              <h2 id="m2">ストレスチェックを
+                <br>毎日の習慣に
+              </h2>
+              <p>自分のライフスタイルに合ったストレスチェックをカスタマイズできます。
+                <br>設定した時間にあなたに通知が届き、
+                <br>通知は回数、時間が自由に設定できます。
+                <br>ストレスを感じ始めたら回数を増やすこともでき、あなたのストレス管理をサポートします。
+              </p>
+            </div>
+            <figure class="left">
+              <img src="images/jikan.png" alt="時間">
+            </figure>
+          </section>
+        </div>
+      </div>
+      <div class="white">
+        <div class="contentsbox">
+          <section>
+            <div class="content_img">
+              <figure class="right2">
+                <img src="images/karenda.png" alt="カレンダー">
+              </figure>
+            </div>
+            <div class="content_txt">
+              <h2 id="m3">カレンダーで見る
+                <br>ストレスデータ
+              </h2>
+              <p>過去のストレスデータをカレンダー形式で
+                <br>閲覧することができます。
+                <br>閲覧のみでなく、カレンダーに書き込むように
+                <br>その日の出来事などを書き込むことができます。
+              </p>
+              <p>当サイトでも閲覧や編集ができるので、積極的に
+                <br>利用しましょう。
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="nomal">
+        <div class="contentsbox2">
+          <section>
+            <h2 id="m4">当サイトにはよりストレス管理に
+              <br>役立つコンテンツがあります
+            </h2>
+            <ul class="contentlink">
+              <li>
+                <a href="#">ストレス種類判断
+                  <img src="images/migi.png" alt="次へ">
+                </a>
+              </li>
+              <li>
+                <a href="kaisoyu/index.html">ストレス解消法
+                  <img src="images/migi.png" alt="次へ">
+                </a>
+              </li>
+              <li>
+                <a href="heikin/index.html">みんなの平均ストレス
+                  <img src="images/migi.png" alt="次へ">
+                </a>
+              </li>
+              <li>
+                <a href="byouki/index.html">ストレスによる病気一覧
+                  <img src="images/migi.png" alt="次へ">
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="apuri">
+        <div class="contentsbox">
+          <section>
+            <div class="content_img">
+              <figure class="right2">
+                <img id="phone" src="images/phone.png" alt="アプリ画面">
+              </figure>
+            </div>
+            <div id="appmidasi">
+              <img id="s-hart" src="images/s-hart.png" alt="アプリマーク">
+              <div class="content_txt">
+                <h2 id="m5">心拍で見る
+                  <br>ストレスデータ
+                </h2>
+              </div>
+              <p>このアプリでストレスを測り、当サイトであなたの
+                <br>ストレスデータを管理します。
+              </p>
+              <div id="linkeria">
+                <div id="ap">
+                  <img class="qr" src="images/QRcode.png" alt="QR">
+                  <a href="#">
+                    <img src="images/appSection__appleLogo.png" alt="アプリリンク">
+                  </a>
+                </div>
+                <div id="ad">
+                  <img class="qr" src="images/QRcode.png" alt="QR">
+                  <a href="#">
+                    <img src="images/appSection__googlePlayLogo.png" alt="アプリリンク">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+    <div id="page-top">
+      <a id="back" href="#topheader">
+        <p id="sankaku" href="#topheader"></p>
+      </a>
+    </div>
+    <footer>
+      <div id="footer">
+        <div id="bottomline"></div>
+        <div id="fcontent">
+          <ul id="map">
+            <li>
+              <div class="midasi"></div>トップページ
+            </li>
+            <li>
+              <div class="midasi"></div>
+              <a href="heikin/index.html">みんなの平均ストレス値</a>
+            </li>
+            <li>
+              <div class="midasi"></div>
+              <a href="byouki/index.html">ストレスによる病気一覧</a>
+            </li>
+          </ul>
+          <ul id="map2">
+            <li >
+              <div class="midasi2"></div>
+              <a href="#">ストレス種類診断</a>
+            </li>
+            <li>
+              <div class="midasi2"></div>
+              <a href="kaisoyu/index.html">ストレス解消法</a>
+            </li>
+          </ul>
+          <div class="banaeria">
+            <a href="http://www.mhlw.go.jp/" target="_blank">
+              <img src="images/kouseibana.png" alt="厚生労働省">
+            </a>
+            <a href="https://byoinnavi.jp/" target="_blank">
+              <img src="images/byouinbana.png" alt="病院ナビ">
+            </a>
+          </div>
+        </div>
+        <p id="copyline">
+          <small>Copyright &#169; 2016 withStress,All Rights reserved</small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

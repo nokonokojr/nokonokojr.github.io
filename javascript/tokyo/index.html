@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="myApp" lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Angular JSON Get Sample</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+ <link rel="stylesheet" type="text/css" href="../css/reset.css">
+	 <script src="../js/angular.js"></script>
+  <script src="../js/jquery-1.11.0.min.js"></script>
+  <script src="../js/angular-resource.min.js"></script>
+  <script src="../js/main.js"></script>
+   <script src="../js/if.js"></script>
+</head>
+<body ng-controller="MainController">
+
+<div ng-repeat="value in items">
+
+<section ng-class="{'Clear': value.main == 'Clear'}">
+    <div id="harebox">
+      <div class="resultbox">
+      <figure id="hare"><img src="../img/suni-ka.png" alt="スニーカー"></figure>
+       <p id="maru">SUCCESS！！</p>
+       <p class="messe">
+           今日は「晴れ」です。<br>晴れの日はいろんなところに行きたいですね！<br>動きやすいスニーカーがお勧めですよ！！
+       </p>
+       <div id="endbtn">
+           <a href="../index.html">Let's go out</a>
+       </div>
+       </div>
+      </div>
+    </section>
+
+  <section ng-class="{'Clouds': value.main == 'Clouds'}">
+    <div id="kumoribox">
+      <div class="resultbox">
+      <figure id="hare"><img src="../img/suni-ka.png" alt="スニーカー"></figure>
+       <p id="maru">SUCCESS！！</p>
+       <p class="messe">
+           今日は「曇り」です。<br>いまいちテンションのあがらない日ですね<br>こんな日は気分を明るくしていきましょう。<br>そんなあなたにはスニーカーがおすすめです。
+       </p>
+       <div id="endbtn">
+           <a href="../index.html">Let's go out</a>
+       </div>
+       </div>
+      </div>
+    </section>
+
+    <section ng-class="{'rain': value.main == 'Rain'}">
+    <div id="amebox">
+      <div class="resultbox">
+      <figure id="ame"><img src="../img/rainbutu.png" alt="レインブーツ"></figure>
+       <p id="maru">SUCCESS！！</p>
+       <p class="messe">
+          今日は「雨」です。<br>レインブーツならブルーな雨の日でも楽しく過ごせますね！<br>他にも今日のような日に合う靴は沢山あるので<br>いろんな靴に挑戦してみてください！
+       </p>
+       <div id="endbtn">
+           <a href="../index.html">Let's go out</a>
+       </div>
+       </div>
+      </div>
+    </section>
+
+
+
+</body>
+</html>

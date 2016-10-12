@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html ng-app="myApp" lang="ja">
+<head>
+  <meta charset="utf-8">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/main.js"></script>
+   <script src="js/if.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+ <title>walk in rain</title>
+
+</head>
+<body ng-controller="MainController">
+<div id="mainbox">
+      <div class="contentsbox">
+       <h1><img src="img/kasa.png" alt="walk in rain"></h1>
+       <div id="place">
+       <p id="selectmidasi">出かける場所</p>
+
+<form name="form1" action="">
+<select id="Select1" name="odekake">
+  <option>-- 選択してください --</option>
+  <option>東京 </option>
+  <option>大阪 </option>
+  <option>北海道 </option>
+  <option>沖縄</option>
+  <option>福岡</option>
+</select>
+<div id="btn">
+<a href="" onclick="onButtonClick();">Let's check!</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

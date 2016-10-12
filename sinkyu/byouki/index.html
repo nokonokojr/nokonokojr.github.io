@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <title>withStress | ストレスによる病気一覧ページ</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/check.js"></script>
+    <script>
+    // 絞り込みに使うタグ（class）を記述してください。数の上限下限はありません。
+    var $chkbxFilter_tags =['netu','kori','hukutuu','hakike','syokuyoku','seki','netu','benpi','memai','hihu','miminari','zutuu','iraira','huan','kinntyou','negatexibu','yaruki','otitukanai','gennjitu','wasure']; 
+
+    // 絞り込み対象の要素のHTMLタグを指定してください。（div、section、tr など）
+    var $chkbxFilter_blocks = ['li']   
+</script>
+  </head>
+  <body>
+    <header>
+      <div id="topline"></div>
+      <h1>
+        <a href="../index.html">
+          <img src="../images/rogo.png" alt="withストレス">
+        </a>
+      </h1>
+      <div class="icon1">
+        <a href="../kaiin/index.html">
+          <img src="../images/yuza.png" alt="会員ページ">
+          <p>会員ページ</p>
+        </a>
+      </div>
+      <div class="menu">
+        <div class="menu1"></div>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+        <p>メニュー</p>
+      </div>
+      <nav>
+        <ul class="menunav">　 
+          <li class="select selectfirst2">
+            <a href="../index.html">トップページ</a>
+          </li>　 
+          <li class="select">
+            <a href="../heikin/index.html">みんなの平均ストレス値</a>
+          </li>
+          <li class="selectedd">ストレスによる病気一覧</li>
+          <li class="select">
+            <a href="#">ストレス種類診断</a>
+          </li>
+          <li class="select">
+            <a href="../kaisoyu/index.html">ストレス解消法</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="conteinar">
+      <article>
+        <h2 id="byoukimidasi">ストレスによる病気一覧</h2>
+        <p id="byoukibun">あなたが感じている症状にチェックをしてどんな病気の可能性があるのか参考にしてみましょう。</p>
+        <section>
+          <div class="categori" id="select">
+            <section>
+              <h3>
+                <div class="cmidasi"></div>身体的症状
+              </h3>
+              <ul id="seisinc">
+                <li>
+                  <label class="selected">
+                    <input type="radio" id="all" checked="checked">全て
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="netu" class="sort">熱がある
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="kori" class="sort">身体の凝り
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="hukutuu" class="sort">腹痛
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="hakike" class="sort">吐き気
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="syokuyoku" class="sort">食欲不振
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="seki" class="sort">咳
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="netu" class="sort">熱がある
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="benpi" class="sort">便秘
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="memai" class="sort">めまい
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="hihu" class="sort">皮膚の異常
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="miminari" class="sort">耳鳴り
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="zutuu" class="sort">頭痛
+                  </label>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h3>
+                <div class="cmidasi"></div>精神的症状
+              </h3>
+              <ul id="sintaic">
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="iraira" class="sort">イライラする
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="huan" class="sort">不安になりやすい
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="kinntyou" class="sort">緊張しやすい
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="negatexibu" class="sort">ネガティブ
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="yaruki" class="sort">やる気が起きない
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="otitukanai" class="sort">落ち着かない
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="gennjitu" class="sort">現実逃避
+                  </label>
+                </li>
+                <li>
+                  <label class="selected">
+                    <input type="checkbox" id="wasure" class="sort">物忘れ・物覚えが悪い
+                  </label>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </section>
+        <div id="byoukicontents">
+          <ul class="syoujougrup" id="result">
+            <li class="ikaiyou syokuyoku hakike hukutuu">
+              <h3>
+                <a href="#">胃潰瘍</a>
+              </h3>
+            </li>
+            <li class="utu syokuyoku negatexibu yaruki huan">
+              <h3>
+                <a href="#">うつ病</a>
+              </h3>
+            </li>
+            <li class="hennzutuu zutuu yaruki hakike iraira">
+              <h3>
+                <a href="#">偏頭痛</a>
+              </h3>
+            </li>
+            <li class="kabinsei benpi hukutuu kinntyou">
+              <h3>
+                <a href="#">過敏性腸症候群</a>
+              </h3>
+            </li>
+            <li class="jiritusinnkei otitukanai syokuyoku memai netu">
+              <h3>
+                <a href="#">自律神経失調症</a>
+              </h3>
+            </li>
+            <li class="sinkei negatexibu otitukanai huan">
+              <h3>
+                <a href="#">神経症</a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <footer>
+      <div id="footer">
+        <div id="bottomline"></div>
+        <div id="fcontent">
+          <ul id="map">
+            <li>
+              <div class="midasi"></div>
+              <a href="../index.html">トップページ</a>
+            </li>
+            <li>
+              <div class="midasi"></div>
+              <a href="../heikin/index.html">みんなの平均ストレス値</a>
+            </li>
+            <li>
+              <div class="midasi"></div>ストレスによる病気一覧
+            </li>
+          </ul>
+          <ul id="map2">
+            <li >
+              <div class="midasi2"></div>
+              <a href="#">ストレス種類診断</a>
+            </li>
+            <li>
+              <div class="midasi2"></div>
+              <a href="../kaisoyu/index.html">ストレス解消法</a>
+            </li>
+          </ul>
+          <div class="banaeria">
+            <a href="http://www.mhlw.go.jp/" target="_blank">
+              <img src="../images/kouseibana.png" alt="厚生労働省">
+            </a>
+            <a href="https://byoinnavi.jp/" target="_blank">
+              <img src="../images/byouinbana.png" alt="病院ナビ">
+            </a>
+          </div>
+        </div>
+        <p id="copyline">
+          <small>Copyright &#169; 2016 withStress,All Rights reserved</small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
